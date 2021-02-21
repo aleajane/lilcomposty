@@ -45,7 +45,9 @@ p {
   text-align: center;
 }
 
-
+#finish {
+	color: black;
+}
 
 .accordion {
   background-color: #ffc7e3;

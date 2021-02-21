@@ -46,17 +46,10 @@ function drop(ev) {
 
 			trials += 1;
 			console.log(trials);
-			console.log(counts);
-			console.log("Hi!");
 			if (trials === 2) {
-    	document.getElementById("finish").innerHTML = "Good day";
+    	document.getElementById("finish").innerHTML = "<strong>Thanks for feeding Composty! 🥰</strong>";
   		}
-			// if trials === 2 {
-			// 	document.getElementById("finish").innerHTML = `Thanks for feeding Composty!`;
-			// }
-			// else {
-			// 	continue;
-			// }
+			
 		} 
 
 		else {
