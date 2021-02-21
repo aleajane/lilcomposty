@@ -1,0 +1,92 @@
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: cornflowerblue;
+		font-size: 70px;
+		text-align: center;
+}
+
+h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(81, 120, 188);
+		font-size: 30px;
+		text-align: center;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: cornflowerblue;
+		text-align: center;
+}
+
+#counter {
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-top: 50px;
+}
+
+#divBin {
+	background: url("/images/compost.png") no-repeat center content-box;
+	background-size: auto 100%;
+	height: 500px;
+	border-left: 2px solid rgba(113, 130, 105, 0.2);
+}
+		#compostGame{
+			display:flex;
+   		/* flex-direction: row; */
+		  /* flex-flow: row wrap; */
+			justify-content: center;
+			align-items: center;
+			background-color: rgb(173, 195, 234);
+			margin: 30px;
+		}
+
+	#compostGame > div {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+
+
+.accordion {
+  background-color: #ffc7e3;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.active, .accordion:hover {
+  background-color: #ffa8d4;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align:center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#faq {
+	margin: 30px;
+}
