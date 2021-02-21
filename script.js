@@ -45,8 +45,9 @@ function drop(ev) {
  			document.getElementById("count").innerHTML = counts;
 
 			trials += 1;
-			console.log(trials)
-			console.log(counts)
+			console.log(trials);
+			console.log(counts);
+			console.log("Hi!");
 			// if trials === 2 {
 			// 	document.getElementById("finish").innerHTML = `Thanks for feeding Composty!`;
 			// }
@@ -57,7 +58,6 @@ function drop(ev) {
 
 		else {
 			confirm(`Oh no! Composty can't eat ${selectedItem}! He is going to get sick! 🤧😭`);
-			trials += 1;
 			var emotion = document.getElementById("divBin");
 			emotion.style.backgroundImage = "url('composty/compostySad.PNG')";
 			counts -= 1;
