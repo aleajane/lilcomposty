@@ -45,6 +45,8 @@ function drop(ev) {
  			document.getElementById("count").innerHTML = counts;
 
 			trials += 1;
+			console.log(trials)
+			console.log(counts)
 			// if trials === 2 {
 			// 	document.getElementById("finish").innerHTML = `Thanks for feeding Composty!`;
 			// }
